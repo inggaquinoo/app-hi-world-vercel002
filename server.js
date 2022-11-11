@@ -4,7 +4,7 @@ const app = express();
 const port = process.env.PORT || 5001;
 
 app.get("/water", (req, res) => {
-    console.log("Express here!!!! Welcome to a new Railway yee")
+    console.log("Express here!!!! Welcome to a new Railway yee on master")
     res.send("Here is some water for you")
 })
 
