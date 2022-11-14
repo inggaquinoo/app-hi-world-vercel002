@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 
-app.get("/", function(req, res){
+app.get("/ok", function(req, res){
     res.send("Express here!!!! Here I'am 2 :) - But 23-new 2 - LOCALLLLL - ahora estamos en VERCEL")
     console.log("Express here!!!! Here I'am 2 :)")
 })
