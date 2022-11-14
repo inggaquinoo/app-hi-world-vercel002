@@ -3,7 +3,7 @@ const app = express();
 
 
 app.get("/", function(req, res){
-    res.send("Express here!!!! Here I'am 2 :) - But 23-new 2 - LOCALLLLL")
+    res.send("Express here!!!! Here I'am 2 :) - But 23-new 2 - LOCALLLLL - ahora estamos en v.002")
     console.log("Express here!!!! Here I'am 2 :)")
 })
 
